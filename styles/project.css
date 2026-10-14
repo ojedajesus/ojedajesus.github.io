@@ -1,0 +1,118 @@
+html {
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: white;
+    background-image: url("../images/rooster26.jpg");
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-attachment: fixed;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+a:focus,
+a:hover {
+    font-style: italic;
+    color: orangered;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+
+header {
+    padding-bottom: 2em;
+    border-bottom: 2px solid maroon;
+}
+
+header h1 {
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
+}
+
+header h2 {
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header img {
+    float: left;
+    margin-left: 2em;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+article h3 {
+    column-span: all;
+}
+
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+article p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 1em;
+}
+
+aside h4 {
+    margin-top: 0.5em;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+}
+
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
+
+p.fixed {
+    width: auto;
+    position: fixed;
+    right: 0;
+    bottom: 6em;
+    margin: 0;
+    padding: 1.5em;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+}
